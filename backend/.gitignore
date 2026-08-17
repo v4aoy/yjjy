@@ -1,0 +1,52 @@
+# 忽略构建生成的文件
+target/
+*.class
+*.jar
+*.war
+*.zip
+
+# IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+eclipse-debug.log
+
+# Maven 相关
+.m2/
+*.pom.xml.tag
+*.pom.xml.releaseBackup
+*.pom.xml.versionsBackup
+*.pom.xml.next
+*.pom.xml.bak
+*.releaseBackup
+*.backup
+
+# Gradle
+.gradle/
+build/
+
+# Node.js / npm (前端依赖)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 日志文件
+logs/
+*.log
+
+# 本地配置
+local.properties
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.bak
